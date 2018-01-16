@@ -1,0 +1,77 @@
+
+body{
+  
+    
+    background-repeat: : none;(../img/dev.jpg);
+}
+    #hah{
+        float:right;
+    }
+    #haha{
+        background-color: grey;
+
+    }
+    #tab1{
+        background-color:white;
+        border:8px solid orange;
+        
+        width:300px;
+        box-shadow:4px 9px 5px rgba(0,0,0,1);
+        margin-left: 10px;
+        float:left;
+        margin-right: 10px;
+    }
+    #bb{
+        font-size:50px;
+        font-family:fantasy;
+        text-align:center;
+        background-color: grey;
+
+    }
+    #bb:hover{
+        text-shadow:8px 5px 7px green;
+        color:yellow; 
+    }
+
+    #ok:hover{
+        
+      text-decoration-color: : 8px 5px 7px orange;
+    }
+    #e{
+         background-color:white;
+        border:5px solid red;
+        
+        width:800px;
+        box-shadow:8px 9px 5px rgba(0,0,0,1);
+        margin-left: 20px;
+        float:left;
+        margin-right: 20px;
+    }
+    .card{
+  width: 350px;
+  box-shadow: 8px 10px 8px 3px rgba(15,35,176,0.5);
+  margin: 45px
+}
+.card2{
+  width: 350px;
+  box-shadow: 8px 10px 8px 3px rgba(245,217,103,0.8);
+}
+
+.card3{
+  width: 350px;
+  box-shadow: 8px 10px 8px 3px rgba(44,150,230,0.8);
+  margin-left:45px;
+}
+.card:hover{
+   box-shadow:0  0 78px rgba(219,32,223,0.5);;
+}.card2:hover{
+   box-shadow:0  0 78px rgba(56,241,66,0.8);
+}.card3:hover{
+   box-shadow:0  0 78px  rgba(2550,0,128,0.8);
+}
+.cont:hover{
+  color: red;
+}
+    
+
+    

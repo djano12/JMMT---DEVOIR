@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+  cursor:pointer;
+}
+a{
+  text-decoration: none;
+  border: none;
+}
+h1:hover{
+  color:red;
+   box-shadow:0 0 18px red;
+}
+h1{
+  color: white;
+  border: none;
+  font-family: Showcard Gothic;
+  font-size: 45px;
+  background-color:#2969B0;
+ 
+}
+.card img,.card2 img,.card3 img{
+  width: 350px;
+  height: 545px;
+}
+.cont{
+  color: black;
+  text-align: center;
+  font-size:45px;
+  font-family:algerian;
+  text-shadow:8px 5px 4px;
+}
+div{
+  display: inline-block;
+}
+.card{
+  width: 350px;
+  box-shadow: 8px 10px 8px 3px rgba(15,35,176,0.5);
+  margin: 45px
+}
+.card2{
+  width: 350px;
+  box-shadow: 8px 10px 8px 3px rgba(245,217,103,0.8);
+}
+
+.card3{
+  width: 350px;
+  box-shadow: 8px 10px 8px 3px rgba(44,150,230,0.8);
+  margin-left:45px;
+}
+.card:hover{
+   box-shadow:0  0 78px rgba(219,32,223,0.5);;
+}.card2:hover{
+   box-shadow:0  0 78px rgba(56,241,66,0.8);
+}.card3:hover{
+   box-shadow:0  0 78px  rgba(2550,0,128,0.8);
+}
+.cont:hover{
+  color: red;
+}

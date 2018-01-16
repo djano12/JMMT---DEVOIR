@@ -1,0 +1,77 @@
+@charset "utf-8";
+body			{background-color:dodgerblue; margin:0px; padding:5px;}
+h5				{color:#222; margin:0; background-image: url(../img/000.jpg); border-radius: 50px 0px 50px 0px; height: 30px; line-height: 30px; width:110px;}
+#conteneu		{background-color: black; padding:10px; margin:0px; border-radius: 8px 8px 8px 8px; height:150px;}
+
+
+
+#hdp			{background-image: url(../img/Capture.PNG); height:90px; border-radius: 8px 8px 0px 0px; padding-top:5px;}
+#logo			{background-image: url(photos/jungle.jpg); width:1300px; height:80px; padding-top:5px; border-radius: 8px 8px 0px 0px; margin:auto; box-shadow:0px 0px 4px rgba(0,0,0,0,0);}
+#titre			{background-image: url(../img/jungle.jpg); width:400px; border-radius:60px 0px 60px 0px; font-size:30px; font-family:algerian; color:mediumblue; text-shadow:-20px 20px 4px rgba(0,0,0,0,0);}
+#titre:hover	{color:#AFA; padding-top:5px;}
+#flou			{background-image: url(../img/capture.png); height:40px; margin-top: -10px; border-radius: 0px 0px 8px 8px;}
+#menu			{background-image: url(../img/llc.jpg); width:1298px; height:40px; line-height:40px; margin:auto; border-radius:20px 20px 20px 20px; box-shadow:0px 0px 4px rgba(0,0,0,0,0);}
+#menu li			{list-style-type:none; display:inline-block;}
+#menu li a			{ background-image: url(../img/titi.jpg); text-decoration:none; font-family:algerian; color:#fff;}
+#menu li a:hover	{background-image: url(../img/ciel.jpg);}
+
+    #accueil				{width:40px; padding:8px; border-radius: 50px 0px 50px 0px;}
+	#actualitees			{width:40px; padding:8px; border-radius: 20px 20px 20px 20px;}
+	#divertissement			{width:40px; padding:8px; border-radius: 20px 20px 20px 20px;}
+	#communication			{width:40px; padding:8px; border-radius: 20px 20px 20px 20px;}
+	#etudes					{width:40px; padding:8px; border-radius: 20px 20px 20px 20px;}
+	#aides					{width:40px; padding:8px; border-radius: 20px 20px 20px 20px;}
+
+#bienvenue {
+    width: 350px;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+    font-family: ravie;
+    text-align: center;
+    background-image: url(../img/vraiamitie.gif);
+    padding-top: 40px;
+    color: navy;
+}
+#bienvenue:hover{
+    color: crimson;
+    background-color: azure;
+}
+
+.connect		{background-image: url(../img/titi.JPG); width:278px; height:100px; line-height:50px; padding-left:5px; padding-right:5px; padding-top:5px; border-radius:5px 5px 5px 5px;}
+.connect a:hover img			{z-index:100px; width:60px; height:60px;}
+.connect img 				{-webkit-transition-duration:1s; -moz-transition-duration:1s;}
+
+#pdp	{height: 80px; background-color:#222; color: white; text-align: center;}
+span	{color: #0CF;}
+.c {
+    font-family: algerian;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.ar{
+    width: 500px;
+    height: 392px;
+    float: right;
+}
+.ar:hover {
+    background-image: url(../img/Efesiana.jpg/);
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('../img/load.gif') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}

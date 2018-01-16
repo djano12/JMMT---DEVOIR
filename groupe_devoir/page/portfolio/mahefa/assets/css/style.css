@@ -1,0 +1,115 @@
+
+a{
+       color:black;
+       text-shadow:0 8px 8px black;
+  
+}
+
+a:hover{
+      color:#2969B0;
+      text-decoration: none;
+}
+
+.video_background{
+      opacity:1;
+      background-color:transparent;
+}
+
+.welcome{
+      font-size: 80px;
+      font-family:Chiller; 
+      text-shadow: 0 8px 8px white;
+      font-weight:800;
+      color: #2969B0 !important;
+      animation-name:bounceIn;
+      animation-delay: 3s;
+      animation-duration:10s;
+      animation-iteration-count:1; 
+}
+
+.brand{
+      animation-name:flipInX;
+      animation-direction:alternate;
+      animation-duration:3s;
+      animation-iteration-count:infinite; 
+}
+
+.block0 {
+	    background-color: rgb(255,255,255);
+
+}
+
+.block1{
+
+      padding-top: 90px;
+      padding-bottom: 80px;
+}
+
+.form{
+      background-color: rgb(255, 255, 255);
+      padding-top: 40px; padding-bottom: 40px;
+}
+
+.button_f {
+      background-color:white;
+      padding-top: 20px; padding-bottom: 20px;
+
+}
+
+.footer {
+      background-color: rgb(41, 105, 176);
+      padding-top: 40px; padding-bottom:40px;
+}
+
+ .site:hover{
+      border:none;
+      animation-name: rubberBand;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      font-size:25px;
+}
+
+   .envoyer:hover{
+      animation-name: wobble;;
+      animation-duration: 2s;
+      align-content: nimation-iteration-count: infinite;
+}
+
+.card-title{
+      font-style: italic;
+      text-shadow:0 8px 8px black;
+} 
+
+.card-title:hover{
+      animation-name:jello;
+      animation-duration:2s;
+      animation-iteration-count: infinite;
+}
+
+.card-img:hover{
+    	animation-name: tada;;
+      animation-duration: 2s;
+    	animation-iteration-count: infinite;
+}
+
+.plus0{
+      background-color: white;
+      color: #2969B0;
+}
+.plus0:hover,.plus1:hover{
+     animation-name:flash;
+     animation-duration: 0.5s;
+     animation-iteration-count: infinite;
+     border: none;
+}
+
+.plus0:hover{
+     background-color: white;
+     color: #2969B0; 
+    
+}
+
+.form-control:focus{
+     background-color: #2969B0;
+     color: white;
+}

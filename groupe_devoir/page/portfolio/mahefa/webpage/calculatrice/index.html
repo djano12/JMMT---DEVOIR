@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<link rel="shortcut icon" href="../../assets/image/mah.ico"> 
+    <link rel="stylesheet" href="../../assets/front-plugin/style.css">                                                     
+    <link rel="stylesheet" href="../../assets/animate.css/animate.min.css">                           
+    <link rel="stylesheet" href="../../assets/dropdown/css/style.css">                           
+    <link rel="stylesheet" href="../../assets/front-theme/css/style.css">                           
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-additional.css" type="text/css">	                         
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+	
+<body>
+     <a href="../index.html" class="back">
+          <input type="button" value="Retourner" class="back btn btn-default navbar-fixed-top"></a>
+<div id="calculator">
+	<form name="cal">
+	<input class="form" type="text" name="input" maxlength="8" readonly="readonly"><br>
+	<table>
+		<tr>
+			 <td><input class="button" type="button" value="7" onclick="cal.input.value+='7'"></td>
+			 <td><input class="button" type="button" value="8" onclick="cal.input.value+='8'"></td>
+			 <td><input class="button" type="button" value="9" onclick="cal.input.value+='9'"></td>
+			 <td><input class="button" type="button" value="c" onclick="cal.input.value=''"></td>
+		</tr>
+		<tr>
+			 <td><input class="button" type="button" value="4" onclick="cal.input.value+='4'"></td>
+			 <td><input class="button" type="button" value="5" onclick="cal.input.value+='5'"></td>
+			 <td><input class="button" type="button" value="6" onclick="cal.input.value+='6'"></td>
+			 <td><input class="button" type="button" value="+" onclick="cal.input.value+='+'"></td>
+		</tr>
+		<tr>
+			 <td><input class="button" type="button" value="1" onclick="cal.input.value+='1'"></td>
+			 <td><input class="button" type="button" value="2" onclick="cal.input.value+='2'"></td>
+			 <td><input class="button" type="button" value="3" onclick="cal.input.value+='3'"></td>
+			 <td><input class="button" type="button" value="-" onclick="cal.input.value+='-'"></td>
+		</tr>
+		<tr>
+			 <td><input class="button" type="button" value="*" onclick="cal.input.value+='*'"></td>
+			 <td><input class="button" type="button" value="0" onclick="cal.input.value+='0'"></td>
+			 <td><input class="button" type="button" value="/" onclick="cal.input.value+='/'"></td>
+			 <td><input class="button" type="button" value="=" onclick="cal.input.value=eval(cal.input.value)"></td>
+		</tr>
+	</table>
+	</form>
+</div>
+
+<script type="text/javascript">
+button_1.onclick=function(){write(0)};
+</script>
+
+<script src=./assets/js/app.js></script>
+</body>
+</html>

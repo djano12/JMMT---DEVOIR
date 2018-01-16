@@ -1,0 +1,56 @@
+
+body {
+	background:black;
+	margin: 0 auto;
+  text-align: center;
+
+}
+#container {
+	margin: 10%;
+}
+h1,h2 {
+	text-align: center;
+	color: white;
+	font-family: poiret one;	
+}
+h2{
+	color: red;
+}
+h3{
+	color:orange;
+}
+input {
+	vertical-align: middle;
+	width: 300px;
+	height: 30px;
+	border-radius: 12px;
+}
+input:hover{
+	box-shadow: 0 0 50px white;
+}
+.back{
+  background-color:  #2969B0;
+	text-decoration: none;
+  color:white;
+	border: none;
+	height: 40px;
+	width: 150px;
+	border-radius: 50px;
+}
+button {
+	cursor: pointer;
+	height: 40px;
+	width: 150px;
+	font-size: 20px;
+	border-radius: 50px;
+}
+p {
+	cursor: default;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	
+}
+button:hover {
+	box-shadow: 0 0 50px white;
+}

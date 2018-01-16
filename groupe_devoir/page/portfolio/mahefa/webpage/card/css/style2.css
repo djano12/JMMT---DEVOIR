@@ -1,0 +1,16 @@
+img{
+  margin:  10px;
+  width: 320px;
+  height: 460px;
+  box-shadow: 0 08px 8px rgba(0,0,0,0.8);
+ 
+}
+img{
+  display: inline-block;
+}
+.back{
+  background-color:  #2969B0;
+  margin-left:85%;
+  margin-top: 12px;
+  color:white;
+}

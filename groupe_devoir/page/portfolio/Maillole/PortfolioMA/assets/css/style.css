@@ -1,0 +1,90 @@
+#toute{
+border:80px solid lightpink;
+}
+#index1{
+	background-image:url(../img/tele.jpg);
+
+}
+
+
+
+
+h2,h3 {
+  text-align: center;
+  
+}
+
+
+#text{
+	color: blue;
+	font-family: ALGERIAN;
+
+}
+#poor{
+	background-color: pink;
+}
+.a{
+	float:right;
+	}
+#row{
+	background-color: grey;
+}	
+
+#premier{
+	background-color:olive;
+}
+#fond{
+	background-color:gray;
+}
+#text2{
+	background-color:tan;
+	border:40px solid;
+	text-align: center;
+	border-radius: 50%; 
+}
+div img{
+	display: inline-block;
+	border-radius: 20%. 
+}
+img{
+	height: 200px;
+	width: 230px;
+	margin: 7px;
+}
+
+#bien{
+	animation-name: zoomIn;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+#tap{
+	animation-name:rotateInDownLeft ;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+#sur{
+	animation-name:flash ;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+#kaka{
+animation-name:rubberBand;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+#curi{
+	animation-name:_flip;             
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-family: castellar;
+
+
+}
+h1{
+	text-align: center;
+	color: blue;
+}
+#img-img{
+     border-radius: 20%; 
+    }

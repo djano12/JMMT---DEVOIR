@@ -1,0 +1,58 @@
+#menu-d .navbar{
+      background-color: #FFAB91;
+}
+.carousel-control{
+      background-color: transparent!important;
+}
+.nav-dropdown-sm{
+      background-color: #FFAB91!important;
+}
+#menu-d .link{
+      color: white;
+       text-decoration: none;
+}
+.background{
+      background-image: url(../image/background.jpg)
+}
+.footer{
+      background-color:  #FFAB91!important;
+      padding-top: 40px; padding-bottom:40px;
+}
+.share{
+      padding-top: 5px; padding-bottom:5px;
+}
+.btn-social{
+      border-color: #FFAB91;
+}
+.btn-social:hover{
+      background-color: #FFAB91
+}
+.brand{
+      animation-name:flipInX;
+      animation-direction:alternate;
+      animation-duration:3s;
+      animation-iteration-count:infinite; 
+}
+
+.card-title{
+      font-style: italic;
+      text-shadow:0 8px 8px black;
+} 
+
+.about{
+      background-image: url(../image/img1.jpg);
+           background-size: cover;
+
+}
+.news{
+      background-image: url(../image/img2.jpg);
+                background-size: cover;
+}
+.contact{
+      background-image: url(../image/img3.jpg);
+                background-size: cover;
+}
+.projet{
+      background-image: url(../image/img4.jpg);
+                background-size: cover;
+}
